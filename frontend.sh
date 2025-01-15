@@ -28,7 +28,7 @@ CHECK_ROOT(){
         exit 1 #other than 0
     fi
 }
-
+mkdir -p $LOGS_FOLDER
 echo "Script started executing at: $TIMESTAMP" &>>$LOG_FILE_NAME
 
 CHECK_ROOT
